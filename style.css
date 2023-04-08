@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(./assets/papel-de-parede.jpg);
+  background-image: url(./assets/background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -34,6 +34,7 @@ body * {
   font-weight: 500;
   line-height: 24px;
   padding-top: 8px;
+  color: white;
 }
 
 /*Lista*/
@@ -62,7 +63,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background: var(--background);
+  background: white;
   border: 1.5px solid rgb(255, 255, 255, 1);
   box-shadow: 0 0 30px rgb(255, 255, 255, 1);
   text-shadow: 0 0 20px rgb(255, 255, 255, 1);
