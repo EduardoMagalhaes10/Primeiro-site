@@ -5,9 +5,9 @@
 }
 
 body {
-  background-image: url(./assets/papeldeparede.jpg);
+  background-image: url(./assets/papel-de-parede.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 body * {
@@ -80,15 +80,15 @@ ul li a:hover {
   align-items: center;
   justify-content: center;
   padding: 15px;
-  transition: box-shadow 0.2s;
+  transition: 0.3s;
   border-radius: 50%;
 }
 
 #social-links a:hover {
-  background: #82827f;
+  background: #1c1c1b;
   color: white;
   border: 0px solid rgb(255, 255, 255, 0.1);
-  box-shadow: 0 0 30px rgb(255, 255, 255, 0.1);
+  box-shadow: 0 0 30px rgb(255, 255, 255, 9);
   text-shadow: 0 0 0 20px rgb(255, 255, 255, 0.1);
 }
 
